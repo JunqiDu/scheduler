@@ -39,7 +39,7 @@ export default function Form(props) {
             type="text"
             onChange={(event) => setStudent(event.target.value)}
             value={interviewer}
-            placeholder="Enter Student Name"
+            placeholder="student-name-input"
           />
           <section className="appointment__validation">{error}</section>
         </form>
