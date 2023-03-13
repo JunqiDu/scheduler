@@ -1,8 +1,7 @@
-import React from 'react';
-import 'components/Appointment/styles.scss';
+import React from "react";
 
-export default function Empty(props) {
-  return (  
+function Empty(props) {
+  return (
     <main className="appointment__add">
       <img
         className="appointment__add-button"
@@ -13,3 +12,5 @@ export default function Empty(props) {
     </main>
   )
 }
+
+export default Empty;
